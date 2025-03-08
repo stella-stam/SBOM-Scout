@@ -6,7 +6,7 @@ on:
       docker_image:
         description: 'The Docker image to scan'
         required: true
-        default: 'appsecco/dvna:sqlite'  # Replace with your chosen Docker image
+        default: 'redis:alpine'  # Replace with your chosen Docker image
 
 jobs:
   scout:
